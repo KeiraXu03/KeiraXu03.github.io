@@ -1,21 +1,24 @@
 ---
-title: "Transformer-based Vision–Language Jigsaw Puzzle Assembly"
-excerpt: "Vision–language model that reassembles shuffled image patches using text as a global semantic anchor. <b>Accepted to the AAAI-26 Student Abstract Program.</b>"
+title: "VLHSA: Vision–Language Jigsaw Puzzle Solving with Eroded Gaps"
+excerpt: "A multimodal (Mamba-based) framework that uses text as semantic guidance to solve jigsaw puzzles with eroded gaps — +14.2 pp piece accuracy. <b>AAAI-26 Student Abstract.</b>"
 collection: portfolio
 ---
 
-**May 2025 – Sept. 2025 · Accepted to the AAAI-26 Student Abstract Program**
+**2025 · Accepted to the AAAI-26 Student Abstract Program**
+· [arXiv:2509.25202](https://arxiv.org/abs/2509.25202)
+· [DOI](https://doi.org/10.1609/aaai.v40i48.42244)
 
-A transformer-based framework for reassembling shuffled image fragments that
-introduces **textual descriptions as global semantic anchors** to resolve
-patch-level ambiguity.
+A vision–language framework for solving jigsaw puzzles with **eroded gaps**, where
+visual cues alone (edge matching, coherence) are insufficient and textual context
+provides crucial semantic guidance.
 
-- Extracted visual and text features via **ViT** and **BLIP**, aligning cross-modal
-  representations at both patch and image granularities with an **InfoNCE**
-  contrastive loss and **Hungarian matching** for optimal permutation assignment.
-- Implemented Multi-Head Attention Fusion and permutation assignment in PyTorch.
-- Led the full research pipeline — modular data/preprocessing, reproducible training,
-  experiment tracking, and ablations over local/global alignment branches.
-- The proposed method achieves significant permutation-accuracy gains over
-  pure-vision baselines, validating the role of language semantics in
-  disambiguating visually similar fragments.
+- Core contribution: the **Vision-Language Hierarchical Semantic Alignment (VLHSA)**
+  module, aligning visual patches with textual descriptions through multi-level
+  semantic matching from local tokens to global context.
+- Multimodal architecture combining **dual visual encoders (including a Mamba /
+  state-space backbone)** with language features for cross-modal reasoning.
+- Significantly outperforms state-of-the-art vision-only models across datasets,
+  with a **+14.2 percentage-point** gain in piece accuracy; ablations confirm the
+  critical role of the VLHSA module.
+
+*Authors: Zhuoning Xu, Xinyan Liu.*

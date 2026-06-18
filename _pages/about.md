@@ -9,21 +9,28 @@ redirect_from:
 
 I am **Zhuoning (Johnny) XU**, a Master's student in Computer Science at the
 [Courant Institute of Mathematical Sciences, New York University](https://cs.nyu.edu/)
-(Sept. 2025 – May 2027, expected). Before NYU, I earned a First-Class Honours
-BEng in Electronic & Information Engineering (Minor in Computing, GPA 3.8 / Top 5%)
-from [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/).
+(Sept. 2025 – May 2027, expected). Before NYU, I earned a First-Class Honours BEng in
+Electronic & Information Engineering (Minor in Computing) from
+[The Hong Kong Polytechnic University](https://www.polyu.edu.hk/), where I graduated
+**ranked top 3 in my major** and received several merit and government scholarships.
 
 My work sits at the intersection of **multimodal learning, computer vision, and
 applied machine learning**. I am especially interested in vision–language models,
 medical image enhancement, and building reliable, reproducible ML systems — from
 data pipelines and training to packaging models for efficient inference.
 
+**Currently**, I am working on **LLM-agent applications and post-training**
+(reinforcement learning / continual fine-tuning for personalization and behavior
+adaptation). I am **actively open to research opportunities and collaborations** —
+feel free to reach out.
+
 Research highlights
 ======
-- **Vision–Language Jigsaw Puzzle Assembly** — a transformer-based model that uses
-  textual descriptions as global semantic anchors (ViT + BLIP features, InfoNCE
-  contrastive alignment, Hungarian matching) to resolve patch-level ambiguity.
-  *Accepted to the AAAI-26 Student Abstract Program.*
+- **VLHSA — Vision–Language Jigsaw Puzzle Solving with Eroded Gaps** — a multimodal
+  (Mamba / state-space) framework that uses textual context and hierarchical semantic
+  alignment to solve jigsaw puzzles, improving piece accuracy by **+14.2 points** over
+  vision-only baselines. *Accepted to the AAAI-26 Student Abstract Program*
+  ([arXiv](https://arxiv.org/abs/2509.25202)).
 - **Retina OCT Image Denoising & Classification** — a multi-perceptual learning
   network with a Triple-Cross-Fusion GAN for joint denoising and classification,
   improving image quality and classification accuracy while keeping real-time
