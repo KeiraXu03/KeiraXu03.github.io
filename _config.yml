@@ -23,7 +23,7 @@ repository               : "KeiraXu03/KeiraXu03.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Zhuoning (Johnny) XU"
   pronouns         : # example: "she/her"
   bio              : "MS in Computer Science, NYU Courant. Multimodal learning, computer vision & applied ML."
